@@ -1,0 +1,27 @@
+enable : true
+heading : Nos
+headingSpan : Services
+serviceItem :
+  - icon : tf-globe
+    title : Création de sites vitrines
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    
+  - icon : tf-ion-laptop
+    title : Responsive Design
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    
+  - icon : tf-genius
+    title : Création de sites E-commerce
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    
+  - icon : tf-dial
+    title : Interface UX/UI
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    
+  - icon : tf-target3
+    title : Référencement Internet
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    
+  - icon : tf-lifesaver
+    title : Mise en place de newsletter
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.

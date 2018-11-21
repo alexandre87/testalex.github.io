@@ -1,0 +1,118 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Meghna | Responsive Multipurpose Parallax HTML5 Template"
+theme = "meghna"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Notre histoire"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Services"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Nos réalisations"
+    URL = "portfolio"
+    weight = 4
+
+    [[menu.nav]]
+    name = "L'équipe"
+    URL = "our-team"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Nos prix"
+    URL = "pricing"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Accueil"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/lion.jpg"
+    icon = "tf-ion-play"
+    heading = "Agence seo / web design"
+    content = "Vous voulez plus de visibilité à votre site internet ou simplement créer un site internet à partir de zéro ? Nous sommes là pour vous accompagner et tout mettre en oeuvre pour la réussite de votre projet"
+
+    btn = true
+    btnText="Nous contacter"
+    btnURL="#services"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Great Design & Incredible Features"
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    btnURL = "#"
+    btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+    
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-google-outline"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-dribbble-outline"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-pinterest-outline"
